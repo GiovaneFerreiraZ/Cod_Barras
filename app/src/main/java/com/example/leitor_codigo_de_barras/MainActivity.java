@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onActivityResult(int requestCode, int resultCode, Intent intent)
     {
+        //teste
         if(requestCode == 0)
         {
             edCoodigo.setText(intent.getStringExtra("SCAN_RESULT"));
